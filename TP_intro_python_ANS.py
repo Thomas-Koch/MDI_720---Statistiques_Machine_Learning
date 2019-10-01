@@ -288,7 +288,7 @@ print(m_sol2)
 
 
 matrice = np.random.uniform(-1, 1, (5, 20))
-G = matrice.T.dot(matrice)
+G = matrice.T.dot(matrice) 
 print(np.allclose(G, G.T))
 
 # solution 1:
